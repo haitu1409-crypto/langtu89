@@ -12,7 +12,7 @@
    - Click "Import"
 
 3. **Cấu hình Project:**
-   - **Project Name**: Đặt tên là `lenguyenuyen`
+   - **Project Name**: Đặt tên là `lumi68`
    - Framework Preset: Chọn "Other" hoặc "Static Site"
    - Root Directory: `./`
    - Build Command: (Để trống vì là static HTML)
@@ -20,7 +20,7 @@
 
 4. **Deploy:**
    - Click "Deploy"
-   - Vercel sẽ tự động deploy và tạo URL: `https://lenguyenuyen.vercel.app`
+   - Vercel sẽ tự động deploy và tạo URL: `https://lumi68.vercel.app`
 
 5. **Auto Deploy:**
    - Mỗi lần push code lên GitHub, Vercel sẽ tự động deploy lại
@@ -41,7 +41,7 @@
    ```bash
    vercel
    ```
-   - Khi được hỏi project name, nhập: `lenguyenuyen`
+   - Khi được hỏi project name, nhập: `lumi68`
    - Chọn options theo hướng dẫn
 
 4. **Production Deploy:**
@@ -51,7 +51,7 @@
 
 ## Lưu ý
 
-- Tên miền sẽ là: `https://lenguyenuyen.vercel.app`
+- Tên miền sẽ là: `https://lumi68.vercel.app`
 - Nếu muốn tên khác, đổi tên project trong Vercel Dashboard
 - File `vercel.json` đã được tạo để cấu hình routing
 
