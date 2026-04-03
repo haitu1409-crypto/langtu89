@@ -7,16 +7,16 @@
 - Có `"name": "chithien188Lux"` trong `vercel.json`
 - Meta tags đầy đủ
 
-### ❌ Dự án `hoanglong188lux` - Preview KHÔNG HOẠT ĐỘNG
-- URL: `https://hoanglong188lux.vercel.app`
-- Đã thêm `"name": "hoanglong188lux"` vào `vercel.json` ✅
+### ❌ Dự án `satthumienbac` - Preview KHÔNG HOẠT ĐỘNG
+- URL: `https://satthumienbac.vercel.app`
+- Đã thêm `"name": "satthumienbac"` vào `vercel.json` ✅
 - Đã thêm `og:image:url` meta tag ✅
 - Meta tags đầy đủ ✅
 
 ## Các Bước Kiểm Tra
 
 ### 1. ✅ Đã Cập Nhật
-- [x] Thêm `"name": "hoanglong188lux"` vào `vercel.json`
+- [x] Thêm `"name": "satthumienbac"` vào `vercel.json`
 - [x] Thêm `og:image:url` meta tag
 - [x] Kiểm tra tất cả meta tags đã đầy đủ
 
@@ -25,13 +25,13 @@
 **Kiểm tra URL có hoạt động không:**
 ```bash
 # Mở trình duyệt và truy cập:
-https://hoanglong188lux.vercel.app
+https://satthumienbac.vercel.app
 ```
 
 **Kiểm tra ảnh preview có truy cập được không:**
 ```bash
 # Mở trình duyệt và truy cập:
-https://hoanglong188lux.vercel.app/imgs/preview.jpg
+https://satthumienbac.vercel.app/imgs/preview.jpg
 ```
 
 ### 3. 🔍 Kiểm Tra Meta Tags
@@ -39,32 +39,32 @@ https://hoanglong188lux.vercel.app/imgs/preview.jpg
 **Sử dụng công cụ debug:**
 1. **Facebook Sharing Debugger:**
    - Truy cập: https://developers.facebook.com/tools/debug/
-   - Nhập URL: `https://hoanglong188lux.vercel.app`
+   - Nhập URL: `https://satthumienbac.vercel.app`
    - Click "Debug" để xem preview
    - Click "Scrape Again" để refresh cache
 
 2. **Open Graph Debugger:**
    - Truy cập: https://www.opengraph.xyz/
-   - Nhập URL: `https://hoanglong188lux.vercel.app`
+   - Nhập URL: `https://satthumienbac.vercel.app`
    - Xem preview
 
 3. **LinkedIn Post Inspector:**
    - Truy cập: https://www.linkedin.com/post-inspector/
-   - Nhập URL: `https://hoanglong188lux.vercel.app`
+   - Nhập URL: `https://satthumienbac.vercel.app`
    - Xem preview
 
 ### 4. 🔍 Kiểm Tra Telegram
 
 **Cách test trên Telegram:**
-1. Đảm bảo URL đã deploy và hoạt động: `https://hoanglong188lux.vercel.app`
+1. Đảm bảo URL đã deploy và hoạt động: `https://satthumienbac.vercel.app`
 2. Mở Telegram (app hoặc web)
-3. Gửi link `https://hoanglong188lux.vercel.app` vào một chat
+3. Gửi link `https://satthumienbac.vercel.app` vào một chat
 4. Đợi Telegram fetch preview (có thể mất 10-30 giây)
 5. Kiểm tra preview hiển thị
 
 **Nếu preview không hiển thị:**
 - Đợi 5-10 phút (Telegram cache preview)
-- Thử lại với URL có query string: `https://hoanglong188lux.vercel.app?v=1`
+- Thử lại với URL có query string: `https://satthumienbac.vercel.app?v=1`
 - Clear cache Telegram (nếu có thể)
 
 ### 5. 🔍 Kiểm Tra File Preview
@@ -74,7 +74,7 @@ https://hoanglong188lux.vercel.app/imgs/preview.jpg
 - [ ] Kích thước: 1200x630px (tỷ lệ 1.91:1)
 - [ ] Định dạng: JPG hoặc PNG
 - [ ] Kích thước file: < 1MB (tối ưu < 500KB)
-- [ ] File có thể truy cập qua HTTPS: `https://hoanglong188lux.vercel.app/imgs/preview.jpg`
+- [ ] File có thể truy cập qua HTTPS: `https://satthumienbac.vercel.app/imgs/preview.jpg`
 
 ### 6. 🔍 So Sánh Với Dự Án Hoạt Động
 
@@ -83,8 +83,8 @@ https://hoanglong188lux.vercel.app/imgs/preview.jpg
 - Test preview trên Telegram
 - So sánh meta tags
 
-**Nếu dự án `linkquangcaochithien` hoạt động nhưng `hoanglong188lux` không:**
-- Kiểm tra xem URL `hoanglong188lux.vercel.app` đã được deploy chưa
+**Nếu dự án `linkquangcaochithien` hoạt động nhưng `satthumienbac` không:**
+- Kiểm tra xem URL `satthumienbac.vercel.app` đã được deploy chưa
 - Kiểm tra xem file preview.jpg có truy cập được không
 - Kiểm tra xem có lỗi gì trong console không
 
@@ -93,8 +93,8 @@ https://hoanglong188lux.vercel.app/imgs/preview.jpg
 ### ❌ Vấn đề 1: URL chưa được deploy
 **Giải pháp:**
 - Deploy lại lên Vercel
-- Đảm bảo Project Name là `hoanglong188lux`
-- Kiểm tra URL hoạt động: `https://hoanglong188lux.vercel.app`
+- Đảm bảo Project Name là `satthumienbac`
+- Kiểm tra URL hoạt động: `https://satthumienbac.vercel.app`
 
 ### ❌ Vấn đề 2: File preview.jpg không truy cập được
 **Giải pháp:**
@@ -118,8 +118,8 @@ https://hoanglong188lux.vercel.app/imgs/preview.jpg
 
 Trước khi test preview trên Telegram:
 
-- [ ] URL `https://hoanglong188lux.vercel.app` đã được deploy và hoạt động
-- [ ] File `https://hoanglong188lux.vercel.app/imgs/preview.jpg` có thể truy cập được
+- [ ] URL `https://satthumienbac.vercel.app` đã được deploy và hoạt động
+- [ ] File `https://satthumienbac.vercel.app/imgs/preview.jpg` có thể truy cập được
 - [ ] Tất cả meta tags đã được cấu hình đúng
 - [ ] Đã test preview bằng Facebook Sharing Debugger
 - [ ] Đã test preview bằng Open Graph Debugger
