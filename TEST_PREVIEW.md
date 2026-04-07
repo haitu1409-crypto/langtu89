@@ -21,26 +21,26 @@ Trang web đã được cấu hình đầy đủ các meta tags cho Telegram:
 
 ### Bước 1: Deploy Lên Vercel
 1. Đăng nhập vào [Vercel Dashboard](https://vercel.com)
-2. Import project từ GitHub: `haitu1409-crypto/satthumienbac`
-3. Đặt Project Name: `satthumienbac`
-4. Deploy và đợi URL: `https://satthumienbac.vercel.app`
+2. Import project từ GitHub: `haitu1409-crypto/langtu89`
+3. Đặt Project Name: `langtu89`
+4. Deploy và đợi URL: `https://langtu89.vercel.app`
 
 ### Bước 2: Test Preview Trên Telegram
 
 **Cách 1: Test Trực Tiếp**
 1. Mở Telegram (app hoặc web)
-2. Gửi link `https://satthumienbac.vercel.app` vào một chat
+2. Gửi link `https://langtu89.vercel.app` vào một chat
 3. Đợi Telegram fetch preview (có thể mất vài giây)
 4. Kiểm tra preview hiển thị:
    - ✅ Tiêu đề: "Trang Đăng Ký - Tham Gia Ngay Để Nhận Ưu Đãi Đặc Biệt"
    - ✅ Mô tả: "Tham gia ngay để nhận những ưu đãi đặc biệt. Đăng ký ngay hôm nay!"
    - ✅ Hình ảnh: `imgs/preview.jpg` (1200x630px)
-   - ✅ URL: `https://satthumienbac.vercel.app/`
+   - ✅ URL: `https://langtu89.vercel.app/`
 
 **Cách 2: Test Bằng Công Cụ Online**
 1. Sử dụng [Telegram Bot Preview Tester](https://tg.i-c-a.su/) (nếu có)
 2. Hoặc sử dụng [Open Graph Debugger](https://www.opengraph.xyz/)
-3. Nhập URL: `https://satthumienbac.vercel.app`
+3. Nhập URL: `https://langtu89.vercel.app`
 4. Xem preview
 
 **Cách 3: Test Bằng Telegram Bot**
@@ -50,7 +50,7 @@ Trang web đã được cấu hình đầy đủ các meta tags cho Telegram:
 ### Bước 3: Kiểm Tra Preview Image
 
 Đảm bảo file `imgs/preview.jpg`:
-- ✅ Tồn tại và có thể truy cập: `https://satthumienbac.vercel.app/imgs/preview.jpg`
+- ✅ Tồn tại và có thể truy cập: `https://langtu89.vercel.app/imgs/preview.jpg`
 - ✅ Kích thước khuyến nghị: 1200x630px (tỷ lệ 1.91:1)
 - ✅ Định dạng: JPG hoặc PNG
 - ✅ Kích thước file: < 1MB (tối ưu < 500KB)
@@ -61,12 +61,12 @@ Nếu preview không hiển thị trên Telegram:
 
 1. **Kiểm tra URL có truy cập được không:**
    ```bash
-   curl -I https://satthumienbac.vercel.app
+   curl -I https://langtu89.vercel.app
    ```
 
 2. **Kiểm tra ảnh preview có truy cập được không:**
    ```bash
-   curl -I https://satthumienbac.vercel.app/imgs/preview.jpg
+   curl -I https://langtu89.vercel.app/imgs/preview.jpg
    ```
 
 3. **Clear Telegram Cache:**
@@ -94,8 +94,8 @@ Nếu preview không hiển thị trên Telegram:
 ## Checklist Trước Khi Test
 
 - [ ] Đã deploy lên Vercel
-- [ ] URL truy cập được: `https://satthumienbac.vercel.app`
-- [ ] Ảnh preview truy cập được: `https://satthumienbac.vercel.app/imgs/preview.jpg`
+- [ ] URL truy cập được: `https://langtu89.vercel.app`
+- [ ] Ảnh preview truy cập được: `https://langtu89.vercel.app/imgs/preview.jpg`
 - [ ] Meta tags đã được cấu hình đúng trong `index.html`
 - [ ] Ảnh preview có kích thước phù hợp (1200x630px)
 
